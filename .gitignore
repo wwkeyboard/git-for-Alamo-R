@@ -1,0 +1,9 @@
+auto/
+.#TeX*
+*.aux
+*.log
+*.nav
+*.out
+*.pdf
+*.snm
+*.toc
