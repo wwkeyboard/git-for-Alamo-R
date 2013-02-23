@@ -33,28 +33,49 @@ Git is huge, I won't be able to cover everything!
   \end{center}
 \end{frame}
 
-% \begin{frame}{Installing Git}
-%   \begin{center}
-%     \begin{itemize}
-%       \item Any recent version will do
-%       \item There are some GUIs(including RStudio!), but most rely on
-%         the CLI tools.
-%       \item Check your package manager(apt, yum, homebrew)
-%     \end{itemize}
-%   \end{center}
-% \end{frame}
+\begin{frame}{Installing Git}
+  \begin{center}
+    \begin{itemize}
+      \item Any recent version will do
+      \item There are some GUIs(including RStudio!), but most rely on
+        the CLI tools.
+      \item Check your package manager(apt, yum, homebrew)
+    \end{itemize}
+  \end{center}
+\end{frame}
 
-% \begin{frame}{Global Configuration}
-%   \begin{center}
-%     \begin{itemize}
-%     \item git config --global user.name "Aaron Lee"
-%     \item git config --global user.email "your_email@example.com"
-%     \end{itemize}
-%   \end{center}
-% \end{frame}
+\begin{frame}{Global Configuration}
+  \begin{center}
+    % \begin{itemize}
+    % \item git config \-\-global user.name "Aaron Lee"
+    % \item git config \-\-global user.email "your_email\@example.com"
+    % \end{itemize}
+    \includegraphics[width=0.7\textwidth]{global_config.png}
+  \end{center}
+\end{frame}
 
-\begin{frame}{\$git init}
+\begin{frame}{Gotchas and good-to-knows}
+  \begin{center}
+    \begin{itemize}
+      \item A git directory is self contained
+      \item Each commit has a unique ID (that can be referenced
+        anywhere)
+      \item The first line of a commit message should be descriptive
+    \end{itemize}
+  \end{center}
+\end{frame}
 
+\begin{frame}{Setup a Repository}
+  \begin{center}
+    \begin{itemize}
+      \item git init
+      \item git add .
+      \item git status
+      \item git commit -m "Something descriptive"
+      \item git status
+      \item git log
+    \end{itemize}
+  \end{center}
 \end{frame}
 
 \begin{frame}{\$git add}
@@ -72,10 +93,15 @@ Git is huge, I won't be able to cover everything!
 \begin{frame}{\$git push}
 \end{frame}
 
-\begin{frame}{\$git blame}
-\end{frame}
-
-\begin{frame}{\$git log}
+\begin{frame}{Terms}
+  \begin{center}
+    \begin{itemize}
+      \item commit - \$ git add - staged - \$ git commit
+      \item branch - \$ git branch
+      \item repository
+      \item \$ git clone - \$ git pull - \$ git push
+    \end{itemize}
+  \end{center}
 \end{frame}
 
 \end{document}
